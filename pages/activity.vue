@@ -1,5 +1,9 @@
 <template>
     <div v-if="user_data">
+        <h1>Activity</h1>
+        <p>
+           Joke War yang kamu sukai
+        </p>
         <Menu />
     </div>
 </template>

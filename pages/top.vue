@@ -1,6 +1,7 @@
 <template>
     <div v-if="user_data">
-        <Menu />
+       Top War
+       <Menu />
     </div>
 </template>
 <script>

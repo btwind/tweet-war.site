@@ -1,5 +1,9 @@
 <template>
     <div v-if="user_data">
+        {{  user_data }}
+        <p>
+           Joke War yang kamu buat
+        </p>
         <Menu />
     </div>
 </template>

@@ -1,5 +1,6 @@
 <template>
     <div v-if="user_data">
+        <h1>Create War</h1>
         <Menu />
     </div>
 </template>
