@@ -21,6 +21,24 @@ async function seed() {
     users,
   }
 }
+
+// async function seed_wars() {
+//   const createTable = await sql`
+//     CREATE TABLE IF NOT EXISTS wars (
+//       id SERIAL PRIMARY KEY,
+//       text VARCHAR(200) NOT NULL,
+//       u_id VARCHAR(20),
+//       "createdAt" TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+//     );
+//     `
+//   return {
+//     createTable,
+//   }
+// }
+
+
+
+// check table not found and create table
 export default defineEventHandler(async () => {
   const db = createPool()
   try {
@@ -32,4 +50,5 @@ export default defineEventHandler(async () => {
       throw error
     }
   }
+  
 })

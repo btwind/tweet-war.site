@@ -2,3 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --color_bg: #f8fafc;
+    --color_text: #0f172a;
+    --primary: black;
+    --primary_text: white;
+}
+.dark-mode{
+    --color_bg: #0f172a;
+    --color_text: #f8fafc;
+    --primary: white;
+    --primary_text: black;
+}

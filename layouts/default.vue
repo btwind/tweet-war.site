@@ -1,7 +1,6 @@
 <template>
-    <NuxtLayout>
-    Index
-  </NuxtLayout>
+    <slot :user="user_data" />
+    <Menu v-if="user_data" />
 </template>
 <script>
 export default {
